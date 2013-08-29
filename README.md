@@ -7,11 +7,6 @@ Booksite - http://algs4.cs.princeton.edu/home/
 
 Course   - https://class.coursera.org/algs4partI-003/class/index
 
-
-1. ###[WeightedQuickUnionUF](https://github.com/geftimov/Algorithms/tree/master/readme/QuickUnion.md)
-
-
-
 How to use the algorithms:
 --------------------------
 
@@ -27,3 +22,10 @@ Build it with Maven:
 ```
 mvn clean install
 ```
+
+All algorithms and their meaning
+================================
+
+1. [WeightedQuickUnionUF](https://github.com/geftimov/Algorithms/tree/master/readme/QuickUnion.md)
+--------------------------------------------------------------------------
+
