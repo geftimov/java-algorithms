@@ -1,8 +1,8 @@
 QuickUnion
 ============
 
-![Alt text](https://github.com/geftimov/Algorithms/blob/master/images/dynamic-connectivity-tiny.png)
+![Alt text](http://tjure.sfs.uni-tuebingen.de/files/Kursmaterialien/Gerdemann/fig1.7.png)
 
 sss
 
-![ScreenShot](https://github.com/geftimov/Algorithms/blob/master/images/dynamic-connectivity-tiny.png)
+![ScreenShot](http://tjure.sfs.uni-tuebingen.de/files/Kursmaterialien/Gerdemann/fig1.7.png)
