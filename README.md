@@ -7,7 +7,7 @@ Booksite - http://algs4.cs.princeton.edu/home/
 
 Course   - https://class.coursera.org/algs4partI-003/class/index
 
-Algorithm 1
+QuickUnion
 ----------
 
 >https://github.com/geftimov/Algorithms/tree/master/readme/QuickUnion.md
