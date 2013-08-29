@@ -20,21 +20,20 @@ Used for:
 How it is done:
 ------------------
 ```
-WeightedQuickUnionUF uf = new WeightedQuickUnionUF(10);<br />
-<br />
-uf.union(4,3);<br />
-uf.union(9,3);<br />
-uf.union(0,8);<br />
-uf.union(2,3);<br />
-uf.union(6,5);<br />
-uf.union(6,3);<br />
-uf.union(7,9);<br />
-uf.union(0,6);<br />
-uf.union(1,3);<br />
+WeightedQuickUnionUF uf = new WeightedQuickUnionUF(10);
 
-//When 0 union with 6 (```uf.union(0,6);```) the root of 0(8) is connected to the root of 6 (3)<br />
-//The test is : <br />
- uf.connected(8,6);<br />
- //this returns true```
+uf.union(4,3);
+uf.union(9,3);
+uf.union(0,8);
+uf.union(2,3);
+uf.union(6,5);
+uf.union(6,3);
+uf.union(7,9);
+uf.union(0,6);
+uf.union(1,3);
 
-
+//When 0 union with 6 (```uf.union(0,6);```) the root of 0(8) is connected to the root of 6 (3)
+//The test is :
+uf.connected(8,6);
+//this returns true
+```
