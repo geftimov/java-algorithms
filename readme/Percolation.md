@@ -4,7 +4,7 @@ Percolation
 Uses [WeightedQuickUnionUF](https://github.com/geftimov/Algorithms/tree/master/readme/QuickUnion.md)
 ---------------
 
-Nor percolating
+Not percolating
 ---------------
 ![ScreenShot](http://coursera.cs.princeton.edu/algs4/testing/percolation/input10-no.png)
 
