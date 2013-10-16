@@ -1,16 +1,5 @@
 package com.eftimoff.algorithms;
 
-import com.eftimoff.algorithms.support.StdIn;
-import com.eftimoff.algorithms.support.StdOut;
-
-/****************************************************************************
- * Compilation: javac WeightedQuickUnionUF.java Execution: java WeightedQuickUnionUF < input.txt Dependencies: StdIn.java
- * StdOut.java
- * 
- * Weighted quick-union (without path compression).
- * 
- ****************************************************************************/
-
 public class WeightedQuickUnionUF
 {
     private int[] id;    // id[i] = parent of i
@@ -70,26 +59,6 @@ public class WeightedQuickUnionUF
             sz[i] += sz[j];
         }
         count--;
-    }
-
-    public static void main(String[] args)
-    {
-        int N = StdIn.readInt();
-        WeightedQuickUnionUF uf = new WeightedQuickUnionUF(N);
-
-        // read in a sequence of pairs of integers (each in the range 0 to N-1),
-        // calling find() for each pair: If the members of the pair are not already
-        // call union() and print the pair.
-        while (!StdIn.isEmpty())
-        {
-            int p = StdIn.readInt();
-            int q = StdIn.readInt();
-            if (uf.connected(p, q))
-                continue;
-            uf.union(p, q);
-            StdOut.println(p + " " + q);
-        }
-        StdOut.println(uf.count() + " components");
     }
 
 }
