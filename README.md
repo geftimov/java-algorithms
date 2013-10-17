@@ -26,6 +26,9 @@ All algorithms and their meaning
 
 1. [WeightedQuickUnionUF](https://github.com/geftimov/Algorithms/tree/master/readme/QuickUnion.md)
 --------------------------------------------------------------------------
+WeightedQuickUnionUF is used to connect dots in a array.
+
+How to use it :
 ```
 WeightedQuickUnionUF uf = new WeightedQuickUnionUF(10);
 
@@ -45,6 +48,9 @@ uf.connected(8,6);
 ```
 2. [Percolation](https://github.com/geftimov/Algorithms/tree/master/readme/Percolation.md)
 --------------------------------------------------------------------------
+Percolation is used to connect dots in a two-dimentional array and see if the a flow runs from top to bottom.
+
+How to use it :
 ```
 Percolation per = new Percolation(10);
 per.open(10,2);
